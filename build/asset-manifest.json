@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nemonemo/static/css/main.66631901.css",
+    "main.js": "/nemonemo/static/js/main.0d72d491.js",
+    "static/js/453.5b6ed916.chunk.js": "/nemonemo/static/js/453.5b6ed916.chunk.js",
+    "index.html": "/nemonemo/index.html",
+    "main.66631901.css.map": "/nemonemo/static/css/main.66631901.css.map",
+    "main.0d72d491.js.map": "/nemonemo/static/js/main.0d72d491.js.map",
+    "453.5b6ed916.chunk.js.map": "/nemonemo/static/js/453.5b6ed916.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66631901.css",
+    "static/js/main.0d72d491.js"
+  ]
+}
