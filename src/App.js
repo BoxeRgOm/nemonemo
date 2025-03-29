@@ -1,4 +1,5 @@
 import NempPage from "./pages/NemoPages";
+import "./App.css";
 
 function App() {
   return (

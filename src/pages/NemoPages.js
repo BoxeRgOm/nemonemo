@@ -7,17 +7,20 @@ import GameOver from './components/GameOver'
 
 const NempPage = () => {
 
-    const [gameState, setGameState] = useState('ready')
+    const [gameState, setGameState] = useState('title') /*title, playing, gameOver*/
     const [score, setScore] = useState(0)
 
     return (<>
-        {gameState === 'ready' && (<Title setGameState={setGameState}/>)}
+        {gameState === 'title' && (<Title setGameState={setGameState}/>)}
         {gameState === 'playing' && (
             <Game gameState={gameState}
                   setGameState={setGameState}
                   score={score} 
                   setScore={setScore} />)}
-        {gameState === 'gameOver' && (<GameOver/>)}
+        {gameState === 'gameOver' && (
+            <GameOver setGameState={setGameState}
+                     score={score} 
+                     setScore={setScore}/>)}
 
     </>)
 }

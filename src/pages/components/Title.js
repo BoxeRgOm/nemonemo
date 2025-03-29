@@ -4,7 +4,7 @@ const Title = ({setGameState}) => {
 
     return (<div classsName="title-screen">
         <h1>Nemo Nemo</h1>
-        <div classsName="game-instructions">
+        <div classsName="game-instruction">
             <h2>게임 설명 : </h2>
             <ol>
                 <li>타일을 드래그해서 정사각형으로 선택해주세요. (2x2, 3x3 ~ 6x6)</li>

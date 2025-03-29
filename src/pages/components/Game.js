@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react'
 
-const GAME_DURATION = 120;
+const GAME_DURATION = 60;
 const ROWS = 10
 const COLS = 6
 const CELL_SIZE = window.innerWidth <= 768 ? 30 : 50
@@ -458,8 +458,6 @@ const Game = ({gameState, setGameState, score, setScore}) => {
 
 
     const getRemoveSquares = (_grid) => {
-
-        console.log('getRemoveSquares ')
 
         let additionalScore = 0;
         const toRemove = new Set();
